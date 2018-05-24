@@ -3,10 +3,10 @@ from time import sleep, strftime, time
 from threading import Thread
 
 # Edit these for how many people/devices you want to track
-occupant = ["Andre"]
+occupant = [""]
 
 # MAC addresses for our phones
-address = ["b0:72:bf:87:47:9d"]
+address = [""]
 
 # Some arrays to help minimize streaming and account for devices
 # disappearing from the network when asleep
