@@ -5,9 +5,9 @@ import random
 import datetime
 import telepot
 
-occupant = ["André"]
-address = ["b0:72:bf:87:47:9d"]
-telegram_id = ["266727330"]
+occupant = [""]
+address = [""]
+telegram_id = [""]
 flag = True
 flagPonto = False
 ask = False
@@ -36,7 +36,7 @@ def handle(msg):
     print 'Got command: %s' % command
     print 'From: %s' % chat_id
     
-bot = telepot.Bot('588250894:AAEQqXrjbzeul8fYOUrDAixgQmaZG7e8W4M')
+bot = telepot.Bot('')
 bot.message_loop(handle)
 print 'I am listening ...'
 
